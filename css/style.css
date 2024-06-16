@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 138, 138);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(126, 20, 20);
+    color: white;
+    padding: 5px;
+    width: auto;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: brown;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border: brown;
+    border-radius: 5px;
+    background-color: rgb(126, 20, 20);
+    color: white;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: white;
+    color:rgb(126, 20, 20);
+}
+
+header{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: auto;
+}
+
+.head{
+    background-color: rgb(126, 20, 20);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+section{
+    color: white;
+}
+
+#addBookForm{
+    margin-bottom: 10px;
+}
+
+.card{
+    width: 1024px;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 20px;
+}
+
+.judul_card{
+    text-align: center;
+    background-color: rgb(126, 20, 20);
+    padding: 1px;
+    margin: 1px;
+}
+
+.input{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.fill_card{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 10px;
+}
+
+.books_card{
+    display: flex;
+    justify-content: center;
+}
+
+#book_list{
+    display: flex;
+    column-gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book{
+    background-color: rgb(194, 67, 67);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.submit_Button{
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 95%;
+    }
+}
